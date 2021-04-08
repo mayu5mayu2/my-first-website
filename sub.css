@@ -1,6 +1,8 @@
-h1 {
-    color: red;
-    /* "This is a top page."を赤に変更 */
-    font-family: serif;
-    /* "This is a top page."のフォントをserifに変更 */
+.my-name, h1{
+    font-family: 'Lucida Sans';
+    background-color: #ddd;
+}
+
+li{
+    list-style:None;
 }
