@@ -1,8 +1,43 @@
-.my-name, h1{
-    font-family: 'Lucida Sans';
-    background-color: #ddd;
+.header{
+    background-color:  #ccc;    /* 背景色指定 */
+    
 }
 
-li{
-    list-style:None;
+.header-name{
+    padding-top:1px;              /* 余白指定 */
+    padding-left:50px;
+    padding-right:5px;
+    font-size:10px;  
+    float:left;
+}
+
+.header-list li{
+    list-style:none;
+    padding-top:10px; padding-left:5px;
+    float:left;
+    margin:10px;
+}
+
+.my-works{
+    padding:50px;
+}
+/* インラインブロック要素にする */
+/* 背景色指定 */
+/* 余白指定 */
+
+.analytics  {
+    display: inline-block;       
+    background-color:  #ccc;     
+    padding: 50px;               
+}
+.programming{
+    display: inline-block;      
+    background-color:  #ccc;    
+    padding: 50px;              
+}
+
+.writing {
+    display: inline-block;      
+    background-color:  #ccc;    
+    padding: 50px;             
 }
